@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Exchange Program</title>
+    <link rel="stylesheet"
+    href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="photos/e0cdd74c13f9427da0fbaccd06555492.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html.html">ABOUT</a></li>
+                <li><a href="programs.html.html">PROGRAMS</a></li>
+                <li><a href="jobs.html.html">JOBS</a></li>
+                <li><a href="contact.html.html">CONTACT</a></li>
+              </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!------- about us content ------>
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest exchange program</h1>
+                <p>The EduPro Exchange Program is a dynamic initiative dedicated to fostering global education and cultural exchange. Designed to bridge the gap between students and institutions worldwide, this program offers an exciting opportunity for individuals to explore new horizons, gain international exposure, and expand their academic and personal horizons. Through Edupro, participants can immerse themselves in diverse cultures, engage in enriching educational experiences, and build lifelong connections with peers from around the globe.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="photos/group-people-working-out-business-plan-office_1303-15818.webp">
+                </div>
+            </div>
+
+
+    </section>
+
+
+
+<!----- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Our exchange programs offer students a unique opportunity to broaden their horizons by <br>studying abroad.Through these programs, students can immerse <br>themselves in a different culture, gain a global perspective, and build lifelong friendships<br></p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i>By Mariam</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------Javascript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks"); 
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+
+</script>
+
+</body>
+</html>

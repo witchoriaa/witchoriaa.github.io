@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Exchange Program</title>
+    <link rel="stylesheet"
+    href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="photos/e0cdd74c13f9427da0fbaccd06555492.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html.html">ABOUT</a></li>
+                <li><a href="programs.html.html">PROGRAMS</a></li>
+                <li><a href="jobs.html.html">JOBS</a></li>
+                <li><a href="contact.html.html">CONTACT</a></li>
+              </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Community Services As Local Jobs</h1>
+    </section>
+
+
+ <!------- jobs page content ----->
+
+ <section class="jobs-content">
+
+    <div class="row">
+        <div class="jobs-left">
+        <img src="/photos/activists-hugging-walking-with-trash-bags-woods_23-2147826354.jpg">
+        <h2>Volunteer To Make This World A Better Place</h2>  
+        <p>Students volunteering is a dynamic and impactful expression of civic engagement, where young individuals harness their energy, passion, and skills to make a meaningful difference in their communities and the wider world. It's a testament to the spirit of altruism and social responsibility that many students carry, as they willingly dedicate their time to various causes, from supporting vulnerable populations and environmental conservation to advocating for social justice and education. This active involvement not only benefits the communities they serve but also transforms the students themselves.</p>
+        <br>
+        <p>Furthermore, student volunteers develop a rich repertoire of transferable skills such as teamwork, leadership, problem-solving, and effective communication. These skills are not only instrumental in volunteer settings but also prove invaluable as students progress through their academic journeys and eventually transition into their careers. Employers and institutions of higher learning highly value applicants with a strong track record of volunteerism, as it underscores their commitment to social responsibility and their ability to take initiative.</p>
+        <br>
+        <p>Student volunteering is also a conduit for building robust social networks and nurturing a sense of community. Whether they are working side by side on local initiatives or collaborating on international projects, students forge lasting connections with fellow volunteers and the individuals and organizations they serve. These relationships contribute significantly to their overall well-being and can serve as a lifelong source of support and inspiration.</p>
+        <br>
+        <p>Above all, student volunteers play a pivotal role in addressing pressing societal issues, from poverty and inequality to environmental sustainability and public health. Their collective efforts can drive positive change and contribute to the betterment of society on a broad scale. In this way, students volunteering is not just an extracurricular activity; it is a transformative force that shapes the character of the next generation and empowers them to become active, informed, and compassionate global citizens.</p>
+
+        <div class="comment-box">
+         
+            <h3>Leave a comment</h3>  
+
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your comment"></textarea>    
+                <button type="submit" class="hero-btn red-btn">POST 
+                COMMENT</button>
+            </form>
+        </div>
+
+
+
+    </div>
+        <div class="jobs-right">
+            <h3>Categories</h3>
+            <div>
+                <span>Volunteer Coordinator</span>
+                <span>21</span>
+            </div>
+            <div> 
+                <span>Community Liaison</span>
+                <span>28</span>
+            </div>
+            <div>   
+                <span>Fundraising Coordinator</span>
+                <span>15</span>
+            </div>
+            <div>   
+                <span>Community Trash Cleanup Coordinator</span>
+                <span>34</span>
+            </div>
+            <div>   
+                <span>Recycling Advocate</span>
+                <span>42</span>
+            </div>
+            <div>   
+                <span>Animal Care Volunteer</span>
+                <span>22</span>
+            </div>
+            <div>   
+                <span>Foster Parent</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+
+ </section>
+
+
+<!----- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Our exchange programs offer students a unique opportunity to broaden their horizons by <br>studying abroad.Through these programs, students can immerse <br>themselves in a different culture, gain a global perspective, and build lifelong friendships<br></p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i>By Mariam</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------Javascript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks"); 
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+
+</script>
+
+</body>
+</html>
